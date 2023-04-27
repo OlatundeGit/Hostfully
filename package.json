@@ -1,0 +1,17 @@
+{
+  "name": "hostfully",
+  "version": "1.0.0",
+  "description": "A test suite for the Computer  Database application that is written with cypress and utilizes the page object model design pattern.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.11.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.3"
+  }
+}
