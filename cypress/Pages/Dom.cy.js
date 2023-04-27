@@ -39,6 +39,9 @@ class dom{
     error_message(){
         return cy.get('fieldset div:nth-of-type(3) .help-inline')
     }
+    error_message2(){
+        return cy.get('fieldset > div:nth-of-type(2) .help-inline')
+    }
 
 }
 export default dom;
