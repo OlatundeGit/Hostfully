@@ -42,7 +42,19 @@ class dom{
     error_message2(){
         return cy.get('fieldset > div:nth-of-type(2) .help-inline')
     }
-    
+    search(){
+        return cy.get('#searchbox')
+    }
+    search_submit(){
+        return cy.get('#searchsubmit')
+    }
+    Prod_name(){
+        return cy.get('a')
+    }
+    error_message3(){
+        return cy.get('em')
+    }
+
 
 }
 export default dom;
